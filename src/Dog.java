@@ -17,15 +17,17 @@ public class Dog {
         this.foundHome = foundHome;
     }
 
-    public void loopData(Dog dogsArray[]){
-        for (Dog dog : dogsArray) {
-            System.out.print("Id: " + dog.id + " ");
-            System.out.print("Name:" + dog.name + " ");
-            System.out.print("Age: " + dog.age + " ");
-            System.out.print("Breed: " + dog.breed + " ");
-            System.out.print("Gender: " + dog.gender + " ");
-            System.out.print("Adopted: " + dog.foundHome + " ");
-            System.out.println(" ");
-        }
-    }
+    //                    System.out.print("Dog Age: ");
+//                    Integer age = scanner.nextInt();
+//
+//                    System.out.print("Dog Name: ");
+//                    String name = scanner.next();
+//
+//                    System.out.print("Dog breed: ");
+//                    String breed = scanner.next();
+//
+//                    System.out.print("Dog Sex: ");
+//                    char gender = scanner.next().charAt(0);
+//
+//                    System.out.println("Did it found home Type 1 for yes and type 2 for no");
 }
